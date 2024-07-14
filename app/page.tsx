@@ -1,7 +1,7 @@
 
 export default function Home() {
 	return (
-		<main className="min-h-screen w-full flex items-center justify-center">
+		<main className="min-h-screen w-full flex items-center justify-center px-2 md:px-10">
 			<section className="flex flex-col gap-5 text-center">
 				<header>
 					<h1 className="font-bold text-3xl">Welcome to the pokedex</h1>

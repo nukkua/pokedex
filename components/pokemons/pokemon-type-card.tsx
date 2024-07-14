@@ -3,7 +3,7 @@ import { typesPokemonColorBorder, typesPokemonColorText } from "@/interfaces/Pok
 type PokemonTypeKey = keyof typeof typesPokemonColorBorder | keyof typeof typesPokemonColorText;
 
 interface Props {
-	type: { name: PokemonTypeKey };
+	type: { name: PokemonTypeKey } ;
 }
 
 export const PokemonTypeCard = ({ type }: Props) => {

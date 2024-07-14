@@ -13,3 +13,9 @@
 .button-secondary {
 	@apply text-pink-300/90 py-3.5 rounded-xl font-bold border shadow-md bg-black w-[130px] sm:w-[150px];
 }
+.nav{
+	z-index: 1000;
+}
+.pokemon-card{
+	z-index: 999;
+}

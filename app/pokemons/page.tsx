@@ -19,7 +19,7 @@ const getPokemons = async (limit: number, offset: number): Promise<PokemonRespon
 export default async function PokemonsPage() {
 	const pokemons = await getPokemons(151, 0);
 	return (
-		<main className="min-h-screen w-full text-center px-4 py-10 gap-10 flex-col flex">
+		<main className="min-h-screen w-full text-center px-4 py-10 gap-10 flex-col flex md:py-16 lg:py-20">
 			<PokemonGrid pokemons={pokemons} />
 
 
